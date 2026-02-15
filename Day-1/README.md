@@ -34,10 +34,9 @@ The objective is to show how increasing sample size improves model stability and
 
 Estimate **Return on Ad Spend (ROAS)** using a regression model:
 
+```
 Sales = m(Ad Spend) + b
-
-yaml
-Copy code
+```
 
 Where:
 
@@ -51,10 +50,10 @@ A stable slope (`m`) means reliable investment forecasting.
 ## 📊 Experimental Design
 
 | Dataset Size | Variance Level | Stability | ROI Reliability |
-|--------------|---------------|-----------|-----------------|
-| N = 15       | High          | Low       | Weak            |
-| N = 40       | Moderate      | Improved  | Acceptable      |
-| N = 100      | Low           | Strong    | Reliable        |
+|--------------|----------------|-----------|-----------------|
+| N = 15       | High           | Low       | Weak            |
+| N = 40       | Moderate       | Improved  | Acceptable      |
+| N = 100      | Low            | Strong    | Reliable        |
 
 ---
 
@@ -79,15 +78,13 @@ A stable slope (`m`) means reliable investment forecasting.
 
 ## 📁 Project Structure
 
+```
 PITB-ML-Internship/
-
 │
-
 ├── linear_regression_analysis.py
-
 ├── requirements.txt
-
 └── README.md
+```
 
 ---
 
@@ -95,31 +92,51 @@ PITB-ML-Internship/
 
 ### 1️⃣ Clone the Repository
 
+```bash
 git clone https://github.com/mzu-2410z/PITB-ML-Internship.git
-2️⃣ Navigate into the Folder
+```
+
+### 2️⃣ Navigate into the Folder
+
+```bash
 cd PITB-ML-Internship
-3️⃣ Install Dependencies (Optional but Recommended)
+```
+
+### 3️⃣ Install Dependencies (Optional but Recommended)
+
+```bash
 pip install -r requirements.txt
-4️⃣ Run the Script
+```
+
+### 4️⃣ Run the Script
+
+```bash
 python linear_regression_analysis.py
-📈 What This Project Demonstrates
+```
+
+---
+
+## 📈 What This Project Demonstrates
+
 ✅ Linear Regression implementation
 ✅ Statistical intuition behind dataset size
 ✅ Model variance behavior
 ✅ Financial interpretation of regression coefficients
 ✅ Practical understanding of the Law of Large Numbers
 
-🔮 Future Enhancements
-Add confidence intervals for coefficient estimates
+---
 
-Implement Ridge & Lasso Regression
+## 🔮 Future Enhancements
 
-Add cross-validation comparison
+- Add confidence intervals for coefficient estimates
+- Implement Ridge & Lasso Regression
+- Add cross-validation comparison
+- Compare against Polynomial Regression
+- Use real-world marketing datasets
 
-Compare against Polynomial Regression
+---
 
-Use real-world marketing datasets
+## 👨‍💻 Author
 
-👨‍💻 Author:
-Muhammad Zil E Umar,
+**Muhammad Zil E Umar**  
 Machine Learning Intern
