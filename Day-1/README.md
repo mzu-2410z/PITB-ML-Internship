@@ -81,12 +81,12 @@ A stable slope (`m`) means reliable investment forecasting.
 
 PITB-ML-Internship/
 │
-├── linear_regression_analysis.py
-├── requirements.txt
-└── README.md
 
-yaml
-Copy code
+├── linear_regression_analysis.py
+
+├── requirements.txt
+
+└── README.md
 
 ---
 
@@ -120,5 +120,5 @@ Compare against Polynomial Regression
 Use real-world marketing datasets
 
 👨‍💻 Author
-Muhammad Zil E Umar |
+Muhammad Zil E Umar 
 Machine Learning Intern
