@@ -18,7 +18,7 @@ Beyond basic prediction, the experiment demonstrates the **Law of Large Numbers*
 
 - Model variance  
 - Coefficient stability  
-- Reliability of ROI (Return on Investment) estimation  
+- Reliability of ROI (Return on Investment) estimation   
 
 Three datasets were tested:
 
