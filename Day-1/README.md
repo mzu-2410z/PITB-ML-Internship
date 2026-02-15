@@ -120,5 +120,5 @@ Compare against Polynomial Regression
 Use real-world marketing datasets
 
 👨‍💻 Author
-Muhammad Zubair
+Muhammad Zil E Umar
 Machine Learning Intern
