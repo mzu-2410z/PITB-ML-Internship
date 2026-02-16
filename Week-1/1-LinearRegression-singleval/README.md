@@ -136,7 +136,4 @@ python linear_regression_analysis.py
 
 ---
 
-## 👨‍💻 Author
-
-**Muhammad Zil E Umar**  
-Machine Learning Intern
+*Built as part of the PITB Machine Learning Internship Portfolio.*
