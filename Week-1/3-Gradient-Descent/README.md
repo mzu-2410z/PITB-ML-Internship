@@ -79,4 +79,4 @@ I benchmarked my custom implementation against the industry-standard `sklearn.li
     ```
 
 ---
-*Created by Omar | AI & Machine Learning Engineer*
+*Built as part of the PITB Machine Learning Internship Portfolio.*
