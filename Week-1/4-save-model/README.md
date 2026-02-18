@@ -136,6 +136,4 @@ python load-model.py
 
 ---
 
-## 👨‍💻 Author
-
 *Built as part of the PITB Machine Learning Internship Portfolio.*
