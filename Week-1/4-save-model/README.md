@@ -118,8 +118,8 @@ Both `joblib` and `pickle` can execute arbitrary code during loading. Only load 
 ## 1️⃣ Clone the repository
 
 ```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone https://github.com/mzu-2410z/PITB-ML-Internship
+cd Week-1/4-save-model
 ```
 
 ## 2️⃣ Install dependencies
@@ -131,7 +131,7 @@ pip install numpy pandas scikit-learn joblib
 ## 3️⃣ Run the script
 
 ```bash
-python save_model.py
+python load-model.py
 ```
 
 ---
