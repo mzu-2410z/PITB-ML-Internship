@@ -10,7 +10,7 @@ It demonstrates the transition from predicting continuous values (Linear Regress
 
 ## 🧠 The Mathematics
 
-Unlike Linear Regression, which outputs any real value, Logistic Regression outputs a probability between **0 and 1**.  
+Unlike Linear Regression, which outputs any real value, Logistic Regression outputs a probability between **0 and 1**.
 
 We achieve this by wrapping a linear equation inside a **Sigmoid (Logistic) function**.
 
@@ -21,47 +21,47 @@ We achieve this by wrapping a linear equation inside a **Sigmoid (Logistic) func
 First, we compute the weighted sum of the input features (just like Linear Regression).
 
 Where:
-- \( x_i \) = feature values (e.g., satisfaction, hours, salary)
-- \( w_i \) = learned weights (coefficients)
-- \( b \) = bias (intercept)
+- $x_i$ = feature values (e.g., satisfaction, hours, salary)
+- $w_i$ = learned weights (coefficients)
+- $b$ = bias (intercept)
 
-\[
+$$
 z = w_1x_1 + w_2x_2 + \dots + w_nx_n + b
-\]
+$$
 
 Or in compact vector form:
 
-\[
+$$
 z = \mathbf{w}^T \mathbf{x} + b
-\]
+$$
 
 ---
 
 ### 2️⃣ The Sigmoid (Logistic) Function
 
-To convert \( z \) into a probability, we apply the Sigmoid function:
+To convert $z$ into a probability, we apply the Sigmoid function:
 
-\[
+$$
 \hat{y} = \frac{1}{1 + e^{-z}}
-\]
+$$
 
 This function maps any real number into the interval:
 
-\[
+$$
 0 < \hat{y} < 1
-\]
+$$
 
 Where:
-- \( \hat{y} \) = predicted probability that the employee leaves
+- $\hat{y}$ = predicted probability that the employee leaves
 
 ---
 
 ### 3️⃣ The Decision Boundary
 
-The predicted probability is converted into a class label using a threshold (typically 0.5):
+The predicted probability $\hat{y}$ is converted into a class label using a threshold (typically 0.5):
 
-- If \( \hat{y} \ge 0.5 \) → Predict **1** (Employee Leaves)
-- If \( \hat{y} < 0.5 \) → Predict **0** (Employee Stays)
+- If $\hat{y} \ge 0.5$ → Predict **1** (Employee Leaves)
+- If $\hat{y} < 0.5$ → Predict **0** (Employee Stays)
 
 ---
 
@@ -130,6 +130,8 @@ This ensures evaluation on unseen data.
 | **Testing Set Size** | 3,000 records |
 | **Model Accuracy** | 78.4% (0.784) |
 
+---
+
 ### 🎯 Verdict
 
 The Logistic Regression model successfully predicts employee turnover with **78.4% accuracy**, using only workplace metrics and compensation-related features.
@@ -166,5 +168,7 @@ jupyter notebook LogisticRegression.ipynb
 ```
 
 ---
+
+## 📁 Project Context
 
 *Built as part of the PITB Machine Learning Internship Portfolio*.
