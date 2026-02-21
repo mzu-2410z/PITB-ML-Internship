@@ -152,7 +152,7 @@ The Logistic Regression model successfully predicts employee turnover with **78.
 1. Clone the repository:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/mzu-2410z/PITB-ML-Internship/
 ```
 
 2. Install dependencies:
@@ -168,7 +168,5 @@ jupyter notebook LogisticRegression.ipynb
 ```
 
 ---
-
-## 📁 Project Context
 
 *Built as part of the PITB Machine Learning Internship Portfolio*.
